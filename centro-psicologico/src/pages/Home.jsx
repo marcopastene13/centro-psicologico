@@ -28,7 +28,7 @@ const Home = () => {
       </div>
 
       <div
-        style={{ backgroundColor: "#eee", padding: "20px", marginTop: "20px" }}
+        style={{ textAlign: "center", backgroundColor: "#eee", padding: "20px", marginTop: "20px" }}
       >
         <h2>Nuestro Equipo</h2>
       </div>

@@ -1,16 +1,23 @@
 import React from "react";
-import NavbarCentro from "./components/Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import Equipo from "./components/Equipo";
+import Profesional from "./pages/Profesional";
+import Contacto from "./pages/Contacto";
 
 function App() {
   return (
-    <>
-      <NavbarCentro />
-      <Home />
-      <Footer />
-    </>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/equipo" element={<Equipo />} />
+          <Route path="/profesionales/:id" element={<Profesional />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+      </Layout>
+    </Router>
   );
 }
 

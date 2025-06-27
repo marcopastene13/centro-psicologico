@@ -16,9 +16,6 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
                 <FaInstagram />
               </a>
-              <a href="https://github.com/marco-pastene" target="_blank" rel="noopener noreferrer" className="footer-icon">
-                <FaGithub />
-              </a>
             </div>
           </Col>
 

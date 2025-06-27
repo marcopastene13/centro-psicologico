@@ -1,0 +1,47 @@
+/* Estilo general del contenedor */
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Imagen de la profesional */
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card que contiene la información */
+.card {
+  border: none;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del nombre */
+.card-title {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+/* Texto de descripción */
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Lista de valores */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+ul li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Botón agendar */
+button {
+  float: right;
+}
