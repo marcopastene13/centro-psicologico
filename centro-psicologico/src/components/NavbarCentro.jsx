@@ -32,4 +32,3 @@ const NavbarCentro = () => {
 };
 
 export default NavbarCentro;
-
