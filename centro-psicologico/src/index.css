@@ -1,42 +1,42 @@
-html, body, #root {
-  height: 100%;
-  margin: 0;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
-  padding-top: 70px; /* espacio para navbar fijo */
+  background-color: white; /* Fondo blanco para claridad y limpieza */
+  color: #333333; /* Texto principal en gris oscuro para buena lectura */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-#root > * {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+/* Enlaces */
+a {
+  color: #87CEEB; /* Azul cielo para links, transmite calma */
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
-footer {
-  margin-top: auto;
+a:hover {
+  color: #FFA07A; /* Salmón claro en hover para calidez y cercanía */
+  text-decoration: underline;
 }
 
-.navbar {
-  height: 70px !important;
-  min-height: 70px !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+/* Mejora para botones generales */
+button {
+  background-color: #98FB98; /* Verde menta: armónico y sereno */
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.navbar-brand,
-.nav-link {
-  line-height: 70px !important; /* centra verticalmente */
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+button:hover {
+  background-color: #87CEEB;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Opcional: que el toggle del navbar (menu hamburguesa) también quede centrado */
-.navbar-toggler {
-  height: 70px;
-  padding: 0 1rem;
-  display: flex;
-  align-items: center;
+/* Contenedor principal para margen adecuado debajo del navbar fijo */
+main {
+  margin-top: 80px;
+  padding: 1rem;
 }

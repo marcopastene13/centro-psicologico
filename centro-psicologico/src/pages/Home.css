@@ -4,7 +4,7 @@
   background-position: center;
   position: relative;
   padding: 3rem 1rem;
-  color: tomato;
+  color: #FFFDD0; /* Crema para el texto, mejor contraste sobre el fondo */
 }
 
 .home-jumbotron::before {
@@ -14,7 +14,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(25, 60, 80, 0.5); /* capa oscura */
+  background-color: rgba(100, 149, 237, 0.5); /* Azul acero semitransparente */
   z-index: 1;
 }
 
@@ -22,3 +22,29 @@
   position: relative;
   z-index: 2;
 }
+
+/* Para los títulos dentro del jumbotron */
+.home-jumbotron h1 {
+  font-weight: 700;
+  color: #6495ED; /* Azul acero para reforzar el branding */
+}
+
+/* Para los textos principales */
+.home-jumbotron p.lead {
+  font-size: 1.25rem;
+  color: #FFFDD0; /* Crema para buena visibilidad */
+}
+
+/* Botón principal */
+.home-jumbotron .btn {
+  background-color: #98FB98; /* Verde menta */
+  border: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.home-jumbotron .btn:hover {
+  background-color: #87CEEB; /* Azul cielo en hover */
+  color: #333;
+}
+

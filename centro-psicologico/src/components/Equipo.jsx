@@ -1,24 +1,24 @@
 import React from "react";
-import { Card, Button, Container } from "react-bootstrap";
+import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import "./Equipo.css";
 
 const profesionales = [
   {
-    id: "1",
+    id: 1,
     nombre: "Patricia Santander",
     descripcion:
       "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Spa Diploma Internacional en Estrategias Clínicas en Psicoterapia Breve. Diploma Perito en ámbito judicial. UNAB",
     imagen: "/patricia-santander.jpg",
   },
   {
-    id: "2",
+    id: 2,
     nombre: "Yasna Valdés",
     descripcion:
       "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Spa Diploma Internacional en Estrategias Clínicas en Psicoterapia Breve. Diploma Perito en ámbito judicial. UNAB",
     imagen: "/yasna.jpg",
   },
   {
-    id: "3",
+    id: 3,
     nombre: "Nuevo Profesional",
     descripcion:
       "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Spa Diploma Internacional en Estrategias Clínicas en Psicoterapia Breve. Diploma Perito en ámbito judicial. UNAB",
@@ -29,29 +29,32 @@ const profesionales = [
 const Equipo = () => {
   return (
     <Container className="my-5">
-      {profesionales.map(({ id, nombre, descripcion, imagen }) => (
-        <Card key={id} className="equipo-card mb-4">
-          <Card.Body className="equipo-card-body d-flex flex-column flex-md-row">
-            <div className="equipo-image-wrapper me-4 mb-3 mb-md-0">
-              <img
-                src={imagen}
-                alt={nombre}
-                className="img-fluid rounded-circle"
-                style={{ width: "150px", height: "150px", objectFit: "cover" }}
-              />
-            </div>
-            <div className="equipo-info flex-grow-1">
-              <Card.Title>{nombre}</Card.Title>
-              <Card.Text>{descripcion}</Card.Text>
-              <div className="d-flex justify-content-end">
-                <Button href={`/profesionales/${id}`} variant="primary">
-                  Más información
-                </Button>
+      <Row>
+        {profesionales.map(({ id, nombre, descripcion, imagen }) => (
+          <Col key={id} md={4} className="d-flex">
+            <Card className="equipo-card">
+              <div className="equipo-image-wrapper">
+                <img src={imagen} alt={nombre} />
               </div>
-            </div>
-          </Card.Body>
-        </Card>
-      ))}
+              <Card.Body className="d-flex flex-column">
+                <Card.Title className="equipo-title">{nombre}</Card.Title>
+                <Card.Text className="equipo-description flex-grow-1">
+                  {descripcion}
+                </Card.Text>
+                <div className="equipo-button-wrapper">
+                  <Button
+                    href={`/profesionales/${id}`}
+                    variant="primary"
+                    className="equipo-button"
+                  >
+                    Más información
+                  </Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
     </Container>
   );
 };
