@@ -17,7 +17,7 @@
 .card-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #6495ED; /* Azul acero */
+  color: #7abfa2; /* Azul acero */
   margin-bottom: 1rem;
 }
 
@@ -41,11 +41,11 @@ ul li {
 }
 
 ul li strong {
-  color: #6495ED; /* Azul acero */
+  color: #bfa2bf; /* Azul acero */
 }
 
 button {
-  background-color: #6495ED !important; /* Azul acero */
+  background-color: #bfa2bf !important; /* Azul acero */
   border: none;
   font-weight: 600;
   padding: 0.5rem 1.2rem;

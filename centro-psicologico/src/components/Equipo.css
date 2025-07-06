@@ -41,7 +41,7 @@
 
 .equipo-title {
   font-weight: 700;
-  color: #6495ED; /* Azul acero */
+  color: #bfa2bf; /* Azul acero */
   margin: 0.75rem 1rem 0.3rem;
   font-size: 1.4rem;
   line-height: 1.2;
@@ -61,7 +61,7 @@
 }
 
 .equipo-button {
-  background-color: #6495ED !important; /* Azul acero */
+  background-color: #bfa2bf !important; /* Azul acero */
   border: none;
   font-weight: 600;
   padding: 0.5rem 1rem;
@@ -69,7 +69,7 @@
 }
 
 .equipo-button:hover {
-  background-color: #FFA07A !important; /* Salmón claro */
+  background-color: #da91da !important; /* Salmón claro */
   color: white;
   cursor: pointer;
 }

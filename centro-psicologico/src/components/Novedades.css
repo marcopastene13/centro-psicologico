@@ -5,7 +5,7 @@
 }
 
 .blog-section .card {
-  color: #333;
+  color: #555555;
   border: none;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
@@ -22,7 +22,7 @@
 
 .blog-section .card-title {
   font-weight: 700;
-  color: #6495ED; /* Azul acero */
+  color: #bfa2bf; /* Azul acero */
   margin-bottom: 1rem;
 }
 
@@ -34,13 +34,13 @@
 }
 
 .blog-section .btn-primary {
-  background-color: #6495ED; /* Azul acero */
+  background-color: #ffad9f; /* Azul acero */
   border: none;
   font-weight: 600;
   transition: background-color 0.3s ease;
 }
 
 .blog-section .btn-primary:hover {
-  background-color: #FFA07A; /* Salmón claro */
+  background-color: #da91da; /* Salmón claro */
   color: #fff;
 }

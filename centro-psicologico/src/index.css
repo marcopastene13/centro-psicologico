@@ -1,5 +1,5 @@
 body {
-  background-color: white; /* Fondo blanco para claridad y limpieza */
+  background-color:  #f5f5dc; /* Fondo blanco para claridad y limpieza */
   color: #333333; /* Texto principal en gris oscuro para buena lectura */
   font-family: 'Helvetica', 'Arial', sans-serif;
   line-height: 1.6;
@@ -37,6 +37,6 @@ button:hover {
 
 /* Contenedor principal para margen adecuado debajo del navbar fijo */
 main {
-  margin-top: 80px;
+  margin-top: 10px;
   padding: 1rem;
 }
