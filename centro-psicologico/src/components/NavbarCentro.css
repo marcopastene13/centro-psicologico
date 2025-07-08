@@ -1,31 +1,29 @@
 .navbar {
-  background-color: #7abfa2 !important; /* Azul acero */
+  background-color: #7abfa2 !important;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  min-height: 70px;
 }
 
 .navbar-brand {
-  color: #FFFDD0 !important; /* Crema, mejor contraste sobre el azul */
+  color: #FFFDD0 !important;
   font-weight: 700;
   font-size: 1.5rem;
   transition: color 0.3s;
 }
 
 .navbar-brand:hover {
-  color: #FFDAB9 !important; /* Melocotón suave al pasar el mouse */
+  color: #FFDAB9 !important;
   text-decoration: none;
 }
 
 .nav-link {
-  color: #FFFDD0 !important; /* Crema */
+  color: #FFFDD0 !important;
   font-weight: 600;
-  margin-left: 1rem;
   transition: color 0.3s;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: #FFA07A !important; /* Salmón claro */
+  color: #FFA07A !important;
   text-decoration: underline;
 }
 

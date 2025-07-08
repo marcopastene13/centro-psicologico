@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Equipo from "../components/Equipo";
 import Novedades from "../components/Novedades";
+import QuienesSomos from "../components/QuienesSomos";
 import "./Home.css";
 
 const Home = () => {
@@ -14,28 +15,25 @@ const Home = () => {
           backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          minHeight: "90vh",
+          minHeight: "60vh",
           position: "relative",
           color: "white",
         }}
       >
         <div className="home-overlay"></div>
-        <Container>
-          <Row>
-            <Col md={8}>
-              <h1 className="display-4 fw-bold">Centro Psicológico Maipú</h1>
-              <p className="lead">
-                Bienvenidos al Centro Psicológico y Peritajes Centenario de
-                Maipú, un espacio destinado a entregar un servicio
-                Psicoterapéutico de calidad a las personas.
-              </p>
-              <a href="#contacto" className="btn btn-outline-light btn-lg mt-3">
-                Agenda tu primera sesión
-              </a>
-            </Col>
-          </Row>
-        </Container>
       </div>
+
+      <div
+        style={{
+          textAlign: "center",
+          backgroundColor: "#7abfa2",
+          padding: "20px",
+          marginTop: "20px",
+        }}
+      ></div>
+
+      <QuienesSomos />
+
 
       <div
         style={{

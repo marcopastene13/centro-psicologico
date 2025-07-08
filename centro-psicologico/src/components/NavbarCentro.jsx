@@ -1,13 +1,23 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./NavbarCentro.css";  // Este import debe estar
+import logo from "../assets/solologo.centro..png"; // Asegúrate de que la ruta sea correcta
+import "./NavbarCentro.css";
 
 const NavbarCentro = () => {
   return (
-    <Navbar  expand="lg" fixed="top" className="shadow-sm">
+    <Navbar expand="lg" fixed="top" className="shadow-sm navbar">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="fw-bold">
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          className="fw-bold text-primary d-flex align-items-center"
+        >
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ height: "40px", marginRight: "10px" }}
+          />
           Centro Psicológico Maipú
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="menu" />

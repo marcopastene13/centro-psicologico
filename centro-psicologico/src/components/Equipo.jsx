@@ -7,22 +7,22 @@ const profesionales = [
     id: 1,
     nombre: "Patricia Santander",
     descripcion:
-      "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Spa Diploma Internacional en Estrategias Clínicas en Psicoterapia Breve. Diploma Perito en ámbito judicial. UNAB",
+      "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Diplomada en Psicoterapia Breve y Perito Judicial (UNAB).",
     imagen: "/patricia-santander.jpg",
   },
   {
     id: 2,
     nombre: "Yasna Valdés",
     descripcion:
-      "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Spa Diploma Internacional en Estrategias Clínicas en Psicoterapia Breve. Diploma Perito en ámbito judicial. UNAB",
+      "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Diplomada en Psicoterapia Breve y Perito Judicial (UNAB).",
     imagen: "/yasna.jpg",
   },
   {
     id: 3,
-    nombre: "Nuevo Profesional",
+    nombre: "Stephany Troncoso",
     descripcion:
-      "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Spa Diploma Internacional en Estrategias Clínicas en Psicoterapia Breve. Diploma Perito en ámbito judicial. UNAB",
-    imagen: "/profesional3.jpg",
+      "Psicóloga especialista en infancia, adolescencia y género. Diplomada en Terapia Infanto Juvenil y Etnicidad y Género.",
+    imagen: "/stephany-tronco.png",
   },
 ];
 
