@@ -25,6 +25,11 @@ const Home = () => {
 
       <div
         style={{
+          borderColor: "#bfa2bf ",
+          borderWidth: "2px",
+          borderStyle: "solid",
+          borderRadius: "10px",
+          color: "#FFFDD0 ",
           textAlign: "center",
           backgroundColor: "#7abfa2",
           padding: "20px",
@@ -34,9 +39,13 @@ const Home = () => {
 
       <QuienesSomos />
 
-
       <div
         style={{
+          borderColor: "#bfa2bf ",
+          borderWidth: "2px",
+          borderStyle: "solid",
+          borderRadius: "10px",
+          color: "#FFFDD0 ",
           textAlign: "center",
           backgroundColor: "#7abfa2",
           padding: "20px",
@@ -52,10 +61,15 @@ const Home = () => {
 
       <div
         style={{
+          borderColor: "#bfa2bf ",
+          borderWidth: "2px",
+          borderStyle: "solid",
+          borderRadius: "10px",
+          color: "#FFFDD0 ",
           textAlign: "center",
           backgroundColor: "#7abfa2",
           padding: "20px",
-          marginTop: "10px",
+          marginTop: "20px",
         }}
       >
         <h2>Novedades en Psicología</h2>

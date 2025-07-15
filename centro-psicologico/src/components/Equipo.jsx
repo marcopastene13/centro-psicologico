@@ -7,14 +7,14 @@ const profesionales = [
     id: 1,
     nombre: "Patricia Santander",
     descripcion:
-      "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Diplomada en Psicoterapia Breve y Perito Judicial (UNAB).",
+      "Psicóloga clínica y perito forense, experta en psicoterapia, evaluación judicial y acompañamiento a víctimas",
     imagen: "/patricia-santander.jpg",
   },
   {
     id: 2,
     nombre: "Yasna Valdés",
     descripcion:
-      "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Diplomada en Psicoterapia Breve y Perito Judicial (UNAB).",
+      "Psicóloga clínica con amplia experiencia en reparación emocional, psicodiagnóstico, peritajes y neurodesarrollo infantil.",
     imagen: "/yasna.jpg",
   },
   {
@@ -32,7 +32,17 @@ const Equipo = () => {
       <Row>
         {profesionales.map(({ id, nombre, descripcion, imagen }) => (
           <Col key={id} md={4} className="d-flex">
-            <Card className="equipo-card">
+            <Card
+              className="equipo-card"
+              style={{
+                borderColor: "#bfa2bf ",
+                borderWidth: "2px",
+                borderStyle: "solid",
+                borderRadius: "10px",
+                color: "white",
+                textAlign: "center",
+              }}
+            >
               <div className="equipo-image-wrapper">
                 <img src={imagen} alt={nombre} />
               </div>

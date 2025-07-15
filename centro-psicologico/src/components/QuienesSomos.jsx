@@ -14,7 +14,13 @@ import fondoImg from "../assets/fondo.jpg"; // ajusta la ruta según tu estructu
 
 const QuienesSomos = () => {
   return (
-    <Container className="quienes-somos my-5">
+    <Container className="quienes-somos my-5" style={{
+          borderColor: "#bfa2bf ",
+          borderWidth: "2px",
+          borderStyle: "solid",
+          borderRadius: "10px",
+          color: "white",
+          textAlign: "center",        }}>
       <Row className="align-items-center">
         <Col md={6}>
           <h2 className="mb-4">¿Quiénes Somos?</h2>

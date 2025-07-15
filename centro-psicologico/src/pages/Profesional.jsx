@@ -11,45 +11,110 @@ const profesionales = [
     imagen: "/patricia-santander.jpg",
     precioOnline: "$25.000",
     precioPresencial: "$30.000",
-    calendarioUrl: "https://calendar.google.com/calendar/embed?src=CORREO_PATY_CALENDARIO&ctz=America/Santiago",
+    calendarioUrl:
+      "https://calendar.google.com/calendar/embed?src=CORREO_PATY_CALENDARIO&ctz=America/Santiago",
     detalles: (
       <>
         <p>
-          Con una sólida trayectoria desde 2016, Patricia Santander se desempeña como Directora y Psicóloga Clínica en el Centro Psicológico Centenario en Maipú. Lidera y supervisa procesos psicoterapéuticos especializados en psicodiagnóstico y psicoterapia individual, trabajando con niños, adolescentes, adultos mayores, parejas y familias. Su compromiso incluye la atención sensible y especializada a víctimas de abuso sexual infantil (ASI), brindando contención y acompañamiento.
+          Con una sólida trayectoria desde 2016, Patricia Santander se desempeña
+          como Directora y Psicóloga Clínica en el Centro Psicológico Centenario
+          en Maipú. Lidera y supervisa procesos psicoterapéuticos especializados
+          en psicodiagnóstico y psicoterapia individual, trabajando con niños,
+          adolescentes, adultos mayores, parejas y familias. Su compromiso
+          incluye la atención sensible y especializada a víctimas de abuso
+          sexual infantil (ASI), brindando contención y acompañamiento.
         </p>
         <p>
-          Paralelamente, Patricia ejerce como Perito Judicial Forense independiente, asesorando jurídicamente en casos relacionados con el ámbito psicológico. Elabora informes psicosociales para causas penales y familiares, evaluaciones de daño psicológico, competencias parentales y participa activamente en entrevistas a imputados y sus familias, aportando desde su experticia clínica al sistema judicial.
+          Paralelamente, Patricia ejerce como Perito Judicial Forense
+          independiente, asesorando jurídicamente en casos relacionados con el
+          ámbito psicológico. Elabora informes psicosociales para causas penales
+          y familiares, evaluaciones de daño psicológico, competencias
+          parentales y participa activamente en entrevistas a imputados y sus
+          familias, aportando desde su experticia clínica al sistema judicial.
         </p>
         <p>Sus principales áreas de trabajo incluyen:</p>
         <ul>
-          <li>Psicoterapia clínica para diversos grupos etarios y problemáticas</li>
-          <li>Evaluaciones psicológicas y peritajes en contexto judicial</li>
-          <li>Diseño e impartición de talleres de habilidades sociales, autoestima y psicoeducación parental</li>
-          <li>Formación académica y supervisión de nuevos profesionales</li>
-          <li>Participación en programas sociales de reinserción y prevención del maltrato infantil</li>
+          <li>
+            •Psicoterapia clínica para diversos grupos etarios y problemáticas
+          </li>
+          <li>•Evaluaciones psicológicas y peritajes en contexto judicial</li>
+          <li>
+            •Diseño e impartición de talleres de habilidades sociales, autoestima
+            y psicoeducación parental
+          </li>
+          <li>•Formación académica y supervisión de nuevos profesionales</li>
+          <li>
+            •Participación en programas sociales de reinserción y prevención del
+            maltrato infantil
+          </li>
         </ul>
         <p>Formación Académica y Capacitación:</p>
         <ul>
-          <li>Diplomado en Peritaje Psicológico y Social en Contexto Judicial – Universidad Andrés Bello (2023)</li>
-          <li>Diplomado Internacional en Estrategias Clínicas de Terapia Breve – ADIPA (2021)</li>
-          <li>Psicóloga titulada con distinción – Universidad de Las Américas (2015)</li>
-          <li>Cursos y seminarios en psicopatología forense, violencia de género, apego infantil, autocuidado emocional, y grafología.</li>
+          <li>
+            •Diplomado en Peritaje Psicológico y Social en Contexto Judicial –
+            Universidad Andrés Bello (2023)
+          </li>
+          <li>
+            •Diplomado Internacional en Estrategias Clínicas de Terapia Breve –
+            ADIPA (2021)
+          </li>
+          <li>
+            •Psicóloga titulada con distinción – Universidad de Las Américas
+            (2015)
+          </li>
+          <li>
+            •Cursos y seminarios en psicopatología forense, violencia de género,
+            apego infantil, autocuidado emocional, y grafología.
+          </li>
         </ul>
         <p>
-          Patricia combina rigurosidad técnica con empatía, impulsando procesos terapéuticos integrales que promueven la salud mental, la justicia y el bienestar de sus pacientes y comunidades.
+          Patricia combina rigurosidad técnica con empatía, impulsando procesos
+          terapéuticos integrales que promueven la salud mental, la justicia y
+          el bienestar de sus pacientes y comunidades.
         </p>
       </>
-    )
+    ),
   },
-  {
-    id: "2",
-    nombre: "Yasna Valdés",
-    descripcion: "Psicóloga Clínica cofundadora en Centro de salud Santander&Valdes. Diplomada en Psicoterapia Breve y Perito Judicial (UNAB).",
-    imagen: "/yasna.jpg",
-    precioOnline: "$25.000",
-    precioPresencial: "$30.000",
-    calendarioUrl: "https://calendar.google.com/calendar/embed?src=CORREO_YASNA_CALENDARIO&ctz=America/Santiago"
-  },
+ {
+  id: "2",
+  nombre: "Yasna Valdés",
+  descripcion: "Psicóloga Clínica – Especialista en Evaluación Psicológica y Procesos de Reparación",
+  imagen: "/yasna.jpg",
+  precioOnline: "$25.000",
+  precioPresencial: "$30.000",
+  calendarioUrl:
+    "https://calendar.google.com/calendar/embed?src=CORREO_YASNA_CALENDARIO&ctz=America/Santiago",
+  detalles: (
+    <>
+      <p>
+        Psicóloga clínica egresada con distinción máxima, con más de 10 años de experiencia en el abordaje de procesos de reparación por vulneración de derechos, trastornos del ánimo y de la conducta. Amplia trayectoria en psicodiagnóstico, intervención terapéutica y trabajo en equipos multidisciplinarios.
+      </p>
+      <p>Formación Clínica:</p>
+      <ul>
+        <li>•Psicóloga clínica</li>
+        <li>•Diplomada en Salud Mental</li>
+        <li>•Diplomada en Pruebas Psicológicas y Proyectivas</li>
+        <li>•Post-título en Infancia, Adolescencia y Familia</li>
+        <li>•Diplomada en Derechos Humanos</li>
+        <li>•Diplomada en Drogodependencias y Reducción de Daños</li>
+        <li>•Diplomada en Peritaje Social y Psicológico</li>
+        <li>•Diplomada en Herramientas Psicolaborales</li>
+        <li>•Diplomada en Neurodesarrollo</li>
+      </ul>
+      <p>Certificaciones y Herramientas Psicométricas:</p>
+      <ul>
+        <li>•Acreditada en Test WISC-V</li>
+        <li>•Acreditada en Test ADOS-2</li>
+        <li>•Acreditada en Test ADI-R</li>
+        <li>•Aplicadora de técnicas proyectivas como Zulliger, PBLL, TRO y CAT-A/H</li>
+      </ul>
+      <p>
+        Yasna destaca por su mirada integral, su compromiso ético y su sensibilidad clínica, entregando un acompañamiento terapéutico respetuoso, profundo y profesional a lo largo de todo el ciclo vital.
+      </p>
+    </>
+  )
+}
+,
   {
     id: "3",
     nombre: "Stephany Troncoso",
@@ -57,34 +122,46 @@ const profesionales = [
     imagen: "/stephany-tronco.png",
     precioOnline: "$25.000",
     precioPresencial: "$30.000",
-    calendarioUrl: "https://calendar.google.com/calendar/embed?src=CORREO_STEPHANY_CALENDARIO&ctz=America/Santiago",
+    calendarioUrl:
+      "https://calendar.google.com/calendar/embed?src=CORREO_STEPHANY_CALENDARIO&ctz=America/Santiago",
     detalles: (
       <>
         <p>
-          Con un enfoque comprensivo y actualizado, Stephany Troncoso cuenta con formación especializada en el trabajo con niños, niñas, adolescentes y sus familias. Posee un Diplomado en Etnicidad y Género, así como un Diplomado en Terapia Infanto Juvenil, lo que le permite abordar sus procesos terapéuticos desde una mirada integradora, con perspectiva de derechos y enfoque de género.
+          Con un enfoque comprensivo y actualizado, Stephany Troncoso cuenta con
+          formación especializada en el trabajo con niños, niñas, adolescentes y
+          sus familias. Posee un Diplomado en Etnicidad y Género, así como un
+          Diplomado en Terapia Infanto Juvenil, lo que le permite abordar sus
+          procesos terapéuticos desde una mirada integradora, con perspectiva de
+          derechos y enfoque de género.
         </p>
-        <p>Su experiencia clínica se centra en el acompañamiento de personas que enfrentan:</p>
+        <p>
+          Su experiencia clínica se centra en el acompañamiento de personas que
+          enfrentan:
+        </p>
         <ul>
-          <li>Trastornos de conducta y del estado del ánimo</li>
-          <li>Desadaptación escolar</li>
-          <li>Trastornos del desarrollo</li>
-          <li>Trastornos de ansiedad</li>
-          <li>Dificultades relacionales</li>
-          <li>Desregulación emocional</li>
-          <li>Problemas de autoestima</li>
-          <li>Orientación vocacional</li>
+          <li>•Trastornos de conducta y del estado del ánimo</li>
+          <li>•Desadaptación escolar</li>
+          <li>•Trastornos del desarrollo</li>
+          <li>•Trastornos de ansiedad</li>
+          <li>•Dificultades relacionales</li>
+          <li>•Desregulación emocional</li>
+          <li>•Problemas de autoestima</li>
+          <li>•Orientación vocacional</li>
         </ul>
         <p>
-          Además, brinda orientación a madres, padres y cuidadores en el fortalecimiento de sus habilidades parentales, promoviendo vínculos afectivos seguros y herramientas prácticas para la crianza.
+          Además, brinda orientación a madres, padres y cuidadores en el
+          fortalecimiento de sus habilidades parentales, promoviendo vínculos
+          afectivos seguros y herramientas prácticas para la crianza.
         </p>
         <p>
-          Stephany cree profundamente en el valor de cada historia personal, y en el poder de la escucha activa y el acompañamiento terapéutico como caminos hacia el bienestar emocional.
+          Stephany cree profundamente en el valor de cada historia personal, y
+          en el poder de la escucha activa y el acompañamiento terapéutico como
+          caminos hacia el bienestar emocional.
         </p>
       </>
-    )
-  }
+    ),
+  },
 ];
-
 
 const Profesional = () => {
   const { id } = useParams();
@@ -108,12 +185,31 @@ const Profesional = () => {
             src={profesional.imagen}
             alt={profesional.nombre}
             className="img-fluid rounded shadow"
-            style={{ maxHeight: "400px", objectFit: "cover" }}
+            style={{
+              maxHeight: "400px",
+              objectFit: "cover",
+              borderColor: "#bfa2bf ",
+              borderWidth: "2px",
+              borderStyle: "solid",
+              borderRadius: "10px",
+              color: "white",
+              textAlign: "center",
+            }}
           />
         </Col>
 
         <Col md={6}>
-          <Card className="p-4">
+          <Card
+            className="p-4"
+            style={{
+              borderColor: "#bfa2bf ",
+              borderWidth: "2px",
+              borderStyle: "solid",
+              borderRadius: "10px",
+              color: "white",
+              textAlign: "center",
+            }}
+          >
             <Card.Title>{profesional.nombre}</Card.Title>
             <Card.Text>{profesional.descripcion}</Card.Text>
 
@@ -122,8 +218,13 @@ const Profesional = () => {
             )}
 
             <ul className="mt-3">
-              <li><strong>Consulta online:</strong> {profesional.precioOnline}</li>
-              <li><strong>Consulta presencial:</strong> {profesional.precioPresencial}</li>
+              <li>
+                <strong>Consulta online:</strong> {profesional.precioOnline}
+              </li>
+              <li>
+                <strong>Consulta presencial:</strong>{" "}
+                {profesional.precioPresencial}
+              </li>
             </ul>
 
             <Button

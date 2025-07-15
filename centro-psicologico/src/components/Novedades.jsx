@@ -4,22 +4,22 @@ import "./Novedades.css"; // Asegúrate de tener estilos para la sección
 
 const novedadesData = [
   {
-    titulo: "La importancia de la salud mental",
+    titulo: "Tendencias en psicología para 2025 según la APA",
     texto:
-      "¿Por qué es esencial cuidar nuestra salud mental para vivir mejor? Conoce más en este artículo.",
-    enlace: "https://www.cop.es/index.php?page=La-importancia-de-la-salud-mental",
+      "Explora los desafíos modernos como IA, salud global y nuevas formas de terapia.",
+    enlace: "https://www.infocop.es/principales-tendencias-que-la-psicologia-debe-tener-cuenta-en-2025-segun-la-apa/",
   },
   {
-    titulo: "¿Cuándo acudir al psicólogo?",
+    titulo: "Psicología y bienestar emocional",
     texto:
-      "Señales que indican que es momento de buscar ayuda profesional y cómo puede ayudarte la psicoterapia.",
-    enlace: "https://www.infocop.es/view_article.asp?id=4715",
+      "Reflexiones actuales sobre salud mental, relaciones, ansiedad y autocuidado emocional.",
+    enlace: "https://elpais.com/eps/psicologia-y-bienestar/",
   },
   {
-    titulo: "Mindfulness y su impacto en la salud",
+    titulo: "Tendencias psicosociales 2025: impacto en niños",
     texto:
-      "Descubre cómo la atención plena puede mejorar tu bienestar emocional y reducir el estrés.",
-    enlace: "https://www.psicologiaymente.com/clinica/beneficios-mindfulness",
+      "Analiza cómo la hiperconectividad y ansiedad ambiental afectan la infancia.",
+    enlace: "https://www.infans.cat/como-las-nuevas-tendencias-psicosociales-de-2025-pueden-impactar-en-la-salud-emocional-de-tus-hijos/",
   },
 ];
 
@@ -29,7 +29,13 @@ const Novedades = () => {
       <Row className="mt-3">
         {novedadesData.map(({ titulo, texto, enlace }, idx) => (
           <Col md={4} key={idx}>
-            <Card className="mb-3">
+            <Card className="mb-3" style={{
+          borderColor: "#bfa2bf ",
+          borderWidth: "2px",
+          borderStyle: "solid",
+          borderRadius: "10px",
+          color: "white",
+          textAlign: "center",        }}>
               <Card.Body>
                 <Card.Title>{titulo}</Card.Title>
                 <Card.Text>{texto}</Card.Text>

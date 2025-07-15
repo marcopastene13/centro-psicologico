@@ -11,14 +11,15 @@ const NavbarCentro = () => {
         <Navbar.Brand
           as={Link}
           to="/"
-          className="fw-bold text-primary d-flex align-items-center"
+          className="fw-bold d-flex align-items-center"
         >
           <img
             src={logo}
             alt="Logo"
-            style={{ height: "40px", marginRight: "10px" }}
+            style={{ height: "70px", marginRight: "10px" }}
           />
-          Centro Psicológico Maipú
+          Centro Psicológico<br/ >Centenario Maipú
+
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="menu" />
         <Navbar.Collapse id="menu">
